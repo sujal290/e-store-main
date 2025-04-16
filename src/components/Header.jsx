@@ -7,6 +7,7 @@ import Footer from './Footer';
 import {FiSearch} from 'react-icons/fi';
 import {FiShoppingCart} from 'react-icons/fi';
 import {FiUser} from 'react-icons/fi';
+import Link from 'next/link';
 
  
 
@@ -46,9 +47,18 @@ const Navbar = () => {
     <nav className="bg-gray-800 text-white py-4">
       <Container className="flex justify-between items-center">
         {/* Nav Links */}
-        <ul className="flex space-x-4">
-          <li><a href="#" className="hover:text-gray-300">Home</a></li>
-          <li><a href="#" className="hover:text-gray-300">Products</a></li>
+        <ul className=" flex items-center space gap-5">
+          <li className ={styles.navLink}>
+            <Link href="/">Home</Link>
+
+
+            </li>
+            <li className ={styles.navLink}>
+            <Link href="/store" > 
+            store
+            </Link>
+
+            </li>
           <li><a href="#" className="hover:text-gray-300">About</a></li>
 
         </ul>
