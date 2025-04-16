@@ -3,6 +3,7 @@ import Slider from './Slider'
 import Container from '@/components/Container'
 import styles from '@/styles/home/HeroSection.module.css'
 import images from '@/images/hero.png'
+import { FiSearch } from 'react-icons/fi'
 
 
 export default function HeroSection() {  

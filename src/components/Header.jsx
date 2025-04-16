@@ -14,7 +14,7 @@ import Link from 'next/link';
 export default function Header() {  
   return (  
     <header className={`${styles.header} py-3 px-1 shadow`}>  
-      <Container className="flex justify-between ">  
+      {/* <Container className="flex justify-between ">   */}
     
           <div className="flex items-center ml-4">  
             <span className="text-gray-500 font-semibold text-xl">E-commerce</span> 
@@ -32,11 +32,11 @@ export default function Header() {
           {/* Navbar */}
           <Navbar />
 
-          <Footer />
+          {/* <Footer /> */}
         
 
         
-      </Container>  
+      {/* </Container>   */}
     </header>
  
   );  
