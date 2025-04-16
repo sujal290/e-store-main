@@ -1,8 +1,9 @@
 import React from 'react'
 import Slider from './Slider'
-// import styles from '@/styles/Home/HeroSection.module.css'
 import Container from '@/components/Container'
 import styles from '@/styles/home/HeroSection.module.css'
+import images from '@/images/hero.png'
+
 
 export default function HeroSection() {  
   return (  
